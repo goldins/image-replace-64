@@ -13,11 +13,11 @@ def main(argv):
   try:
     opts, args = getopt.getopt(argv,'hf:',['file='])
   except getopt.GetoptError:
-    print 'test.py -f <file>'
+    print 'encode64.py -f <file>'
     sys.exit(2)
   for opt, arg in opts:
     if opt == '-h':
-      print 'test.py -f <file>'
+      print 'encode64.py -f <file>'
       sys.exit()
     elif opt in ('-f', '--file'):
       inputfile = arg
