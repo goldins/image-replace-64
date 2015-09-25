@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# Created by Simon Goldin on github.com/goldins/image-replace-64
+
 
 import base64
 import sys, getopt
